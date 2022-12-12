@@ -21,6 +21,7 @@ const tinhKhoi1 = () => {
     // console.log(diemTB);
     document.getElementById("tbKhoi1").innerHTML = diemTB;
 }
+document.getElementById("btnKhoi1").onclick = tinhKhoi1;
 
 const tinhKhoi2 = () => {
     let a1 = Number(document.getElementById('inpVan').value);
@@ -32,4 +33,4 @@ const tinhKhoi2 = () => {
     // console.log(diemTB);
     document.getElementById("tbKhoi2").innerHTML = diemTB;
 }
-
+document.getElementById("btnKhoi2").onclick = tinhKhoi2;
